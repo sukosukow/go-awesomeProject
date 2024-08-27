@@ -1,0 +1,29 @@
+### GET request to example server
+GET http://127.0.0.1:4000/api/todos
+
+### Create Task
+POST http://127.0.0.1:4000/api/todos
+Content-Type: application/json
+
+{
+  "body": "pithon"
+
+}
+
+### Create
+PATCH http://127.0.0.1:4000/api/todos/1
+Content-Type: application/json
+
+{
+  "body": "Learn react"
+}
+
+### Delete
+DELETE http://127.0.0.1:4000/api/todos/1
+Content-Type: application/json
+
+{
+  "body": "test"
+}
+
+###
